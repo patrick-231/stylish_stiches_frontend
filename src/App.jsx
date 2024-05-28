@@ -8,6 +8,10 @@ import Category from "./pages/Category";
 import Product from "./pages/Product";
 import Login from "./pages/Login";
 import Cart from "./pages/Cart";
+//banner & svg
+import bannermen from "./assets/bannermen.png"
+import bannerwommen from "./assets/bannerwomen.png"
+import bannerkids from "./assets/bannerkids.png"
 
 
 function App() {
@@ -18,9 +22,9 @@ function App() {
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/men" element={<Category category={"men"} />} />
-            <Route path="/women" element={<Category category={"women"} />} />
-            <Route path="/kids" element={<Category category={"kids"} />} />
+            <Route path="/men" element={<Category category={"men"} banner={bannermen}/>} />
+            <Route path="/women" element={<Category category={"women"} banner={bannerwommen} />} />
+            <Route path="/kids" element={<Category category={"kids"} banner={bannerkids}/>} />
             <Route path="/product" element={<Product />} />
             <Route>
               <Route path=":productId" element={<Product />}/>

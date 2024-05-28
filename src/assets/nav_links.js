@@ -15,5 +15,9 @@ const NAV_LINKS = [
       title: "Kids",
       path: "/kids"
     },
+    {
+      title: "Membership Club",
+      path: "/membership-club"
+    },
   ];
   export default NAV_LINKS

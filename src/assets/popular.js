@@ -18,7 +18,7 @@ import p4_img from './product_4.jpg'
     description: "The pre-distressed elements lend an authentic, vintage-inspired vibe, allowing you to achieve that coveted, perfectly-imperfect denim look with minimal effort."
   },
   {id:3,
-    name:"Levi T-Shirt Minilogo",
+    name:"Levi T-Shirt with Minilogo Style",
     image:p3_img,
     old_price:50,
     description: "Casual coolness of this jersey t-shirt comes from the trendy signature look, which is evident in the form of a small label stitching at the front."
