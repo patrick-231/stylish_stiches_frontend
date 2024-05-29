@@ -27,10 +27,10 @@ function App() {
             <Route path="/kids" element={<Category category={"kids"} banner={bannerkids}/>} />
             <Route path="/product" element={<Product />} />
             <Route>
-              <Route path=":productId" element={<Product />}/>
+              <Route path="product/:productId" element={<Product />} />
             </Route>
-            <Route path='/cart-page' element={<Cart/>}/>
-            <Route path='/login' element={<Login/>}/>
+            <Route path='/cart-page' element={<Cart/>} />
+            <Route path='/login' element={<Login/>} />
           </Routes>
           <Footer />
         </BrowserRouter>

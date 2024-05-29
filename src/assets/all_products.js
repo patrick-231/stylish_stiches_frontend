@@ -70,7 +70,7 @@ let all_products = [
   },
   {
     id: 5,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Jeansjacke mit Finish im Washed-Look",
     category: "men",
     image: p5_img,
     new_price: 85,

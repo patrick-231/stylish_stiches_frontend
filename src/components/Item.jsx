@@ -4,7 +4,7 @@ import { Link }  from 'react-router-dom'
 const Item = ({id, name, image, old_price, price, description}) => {
   return (
     <div className='overflow-hidden p-3 rounded-3xl bg-white ring-1 ring-slate-900/5'>
-        <div className='relative flexCenter overflow-hidden transition-all duration-100 rounded-3xl transform hover:scale-110  hover:shadow-lg'>
+        <div className='relative flexCenter overflow-hidden transition-all duration-100 rounded-3xl transform hover:scale-95 hover:shadow-lg'>
             <img src={image} alt="product image" className='rounded-3xl w-full block object-cover transition-all duration-1000' />
         </div>
         <div className=' pt-3 '>

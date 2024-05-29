@@ -6,7 +6,7 @@ import SOCIALS from '../assets/socials'
 
 const Footer = () => {
   return (
-    <footer className='flexCenter pb-24 pt-20'>
+    <footer className='flexCenter pb-24 pt-20  '>
       <div className='max-padd-container flex w-full flex-col gap-14'>
         <div className='flex flex-col items-start justify-center gap[10%] md:flex-row'>
           <div className='max-w-72'>
