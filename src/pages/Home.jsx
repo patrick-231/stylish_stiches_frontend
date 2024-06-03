@@ -5,6 +5,7 @@ import Popular from '../components/Popular'
 import Offers from '../components/Offers'
 import NewCollection from '../components/NewCollection'
 import NewMenFashion from '../components/NewMenFashion'
+import TopBrand from '../components/TopBrand'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
   <NewMenFashion />
   <TopRated />
   <Popular />
+  <TopBrand />
   <Offers />
   <NewCollection />
 

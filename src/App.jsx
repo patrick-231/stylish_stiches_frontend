@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 // components
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -8,10 +9,12 @@ import Category from "./pages/Category";
 import Product from "./pages/Product";
 import Login from "./pages/Login";
 import Cart from "./pages/Cart";
+import Membership from "./pages/Membership";
 //banner & svg
 import bannermen from "./assets/bannermen.png"
 import bannerwommen from "./assets/bannerwomen.png"
 import bannerkids from "./assets/bannerkids.png"
+import TopBrand from "./components/TopBrand";
 
 
 function App() {
@@ -26,6 +29,7 @@ function App() {
             <Route path="/women" element={<Category category={"women"} banner={bannerwommen} />} />
             <Route path="/kids" element={<Category category={"kids"} banner={bannerkids}/>} />
             <Route path="/product" element={<Product />} />
+            <Route path="/membership-club" element={<Membership />} />
             <Route>
               <Route path="product/:productId" element={<Product />} />
             </Route>
