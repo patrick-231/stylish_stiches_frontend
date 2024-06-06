@@ -55,7 +55,7 @@ const TopRated = () => {
         <div className="">
           <div className="ring-1 ring-slate-900/5 rounded-3xl text-white">
             <img
-              src="https://res.cloudinary.com/dpx184ojl/image/upload/v1717514159/app/w7640ulrvbliqffj41r5.jpg"
+              src="https://res.cloudinary.com/dpx184ojl/image/upload/v1717569740/app/uptn7zc0acjhbnnlrycg.jpg"
               className="rounded-3xl"
               alt="male image"
             />
