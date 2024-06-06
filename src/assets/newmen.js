@@ -11,100 +11,100 @@ import p14_img from "./product_14.jpg";
 import p15_img from "./product_15.jpg";
 import p16_img from "./product_16.jpg";
 
-
 const NEWCOLLECTION = [
   {
     id: 5,
     name: "Jeans Jacket",
-    image: p5_img,
-    old_price: 105,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510802/app/a82zw7k2pcllhal7uqeh.jpg",
+    old_price: 30,
     description:
       "Cotton male jacket with classic collar, pockets and washed look.",
   },
   {
-    id: 6,
     name: "Jeans Short ",
-    image: p6_img,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510802/app/vvg3w3uyos1h5a8o3vrv.jpg",
     old_price: 40,
     description:
       "The pre-distressed elements lend an authentic, vintage-inspired vibe, allowing.",
   },
   {
-    id: 7,
     name: "Baggy jeans ",
-    image: p7_img,
-    old_price: 80,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510802/app/ithhxvg8ulhwgmp8n2hu.jpg",
+    old_price: 30,
     description:
       "Baggy and cargo style jeans with flap pockets on the trouser legs,.",
   },
   {
-    id: 8,
     name: "Plain T Shirt ",
-    image: p8_img,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510802/app/nfis2xzxq5ukbyrsnyz9.jpg",
+    old_price: 10,
+    description:
+      "Pure cotton T-shirt logo Brokk graphic on the back short sleeves and round neckline.",
+  },
+  {
+    name: "Plain T Shirt ",
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510803/app/pqydwzljujzq0zujeari.jpg",
     old_price: 30,
     description:
       "Pure cotton T-shirt logo Brokk graphic on the back short sleeves and round neckline.",
   },
   {
-    id: 9,
     name: "Plain T Shirt ",
-    image: p9_img,
-    old_price: 30,
-    description:
-      "Pure cotton T-shirt logo Brokk graphic on the back short sleeves and round neckline.",
-  },
-  {
-    id: 10,
-    name: "Plain T Shirt ",
-    image: p10_img,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510803/app/mfm7knnnxytydrnzsicv.jpg",
     old_price: 55,
     description:
       "Pure cotton T-shirt logo Brokk graphic on the back short sleeves and round neckline.",
   },
   {
-    id: 11,
     name: "Plain T Shirt ",
-    image: p11_img,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510803/app/vouuvp9pnprgeqx9pvsg.jpg",
     old_price: 70,
     description:
       "Pure cotton T-shirt logo Brokk graphic on the back short sleeves and round neckline.",
   },
   {
-    id: 12,
     name: "Plain T Shirt ",
-    image: p12_img,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510803/app/p1tblbjrzybidxx8lrqa.jpg",
     old_price: 50,
     description:
       "Pure cotton T-shirt logo Brokk graphic on the back short sleeves and round neckline.",
   },
   {
-    id: 13,
     name: "Leather sneakers with thick soles ",
-    image: p13_img,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510804/app/uacgobvtejgniqgwuc4f.jpg",
     old_price: 50,
     description:
       "Pure cotton T-shirt logo Brokk graphic on the back short sleeves and round neckline.",
   },
   {
-    id: 14,
     name: "Sneaker Running-Still ",
-    image: p14_img,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510804/app/igl5olvxxygr1hcontey.jpg",
     old_price: 50,
     description:
       "Pure cotton T-shirt logo Brokk graphic on the back short sleeves and round neckline.",
   },
   {
-    id: 15,
     name: "Sneakers in a retro ",
-    image: p15_img,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510804/app/yobe0m2ofkeepow0y380.jpg",
     old_price: 50,
     description:
       "Pure cotton T-shirt logo Brokk graphic on the back short sleeves and round neckline.",
   },
   {
-    id: 16,
     name: "Plain sneakers ",
-    image: p16_img,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510804/app/qrss5njmkbw1pvqlbgha.jpg",
     old_price: 50,
     description:
       "Pure cotton T-shirt logo Brokk graphic on the back short sleeves and round neckline.",

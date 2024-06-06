@@ -12,26 +12,31 @@ export default function Signup({ setUser }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    setIsLoading(true);
-    setError(null);
+    setIsLoading(true); // Set isLoading to true when the form is submitted
 
-    const response = await fetch("http://localhost:4000/user/signup", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ name, email, password }),
-    });
+    try {
+      const response = await fetch(
+        "https://stylish-stiches.onrender.com/user/signup",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ name, email, password }),
+        }
+      );
 
-    const data = await response.json();
+      const data = await response.json();
 
-    if (!response.ok) {
-      setIsLoading(false);
-      setError(data.error);
-    }
-
-    if (response.ok) {
-      localStorage.setItem("user", JSON.stringify(data));
-      setIsLoading(false);
-      setUser(data);
+      if (!response.ok) {
+        setIsLoading(false); // Set isLoading to false if the response is not ok
+        setError(data.error);
+      } else {
+        localStorage.setItem("user", JSON.stringify(data));
+        setIsLoading(false); // Set isLoading to false when the response is ok
+        setUser(data);
+      }
+    } catch (error) {
+      setIsLoading(false); // Set isLoading to false if there is an error
+      setError(error.message);
     }
   };
 
@@ -68,7 +73,12 @@ export default function Signup({ setUser }) {
               className="h-8 w-full pl-5 bg-white outline-none text-sm focus:border-black border-2"
             />
           </div>
-          <button className="btn-dark rounded-xl my-5 !py-1">Continue</button>
+          <button
+            className="btn-dark rounded-xl my-5 !py-1"
+            disabled={isLoading} // Disable the button while isLoading is true
+          >
+            {isLoading ? "Loading..." : "Continue"}
+          </button>
           {error && <div>{error}</div>}
 
           <p className="text-tertiary font-bold">

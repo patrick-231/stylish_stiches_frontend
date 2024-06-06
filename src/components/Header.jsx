@@ -20,7 +20,7 @@ const Header = () => {
   const { getTotalCartItems } = useContext(ShopContext);
 
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
+    <header className="fixed top-0 left-0 w-full z-50 bg-white ">
       <div className="max-padd-container w-full mt-6">
         <div className="flexBetween py-3">
           {/* Navbar Desktop */}
@@ -44,7 +44,7 @@ const Header = () => {
                 {/* <p><span className="font bold text-3xl text-red-600">Stylish Stiches</span></p> */}
                 <img
                   className="mt-2 hover:animate-bounce hidden md:block"
-                  src={Logo}
+                  src="https://res.cloudinary.com/dpx184ojl/image/upload/v1717510799/app/fbqlojugxyjafdlmhwmm.png"
                   alt="logo"
                   height={166}
                   width={188}

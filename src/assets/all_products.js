@@ -1,4 +1,4 @@
-import p1_img from "./product_1.jpg";
+/* import p1_img from "./product_1.jpg"; */
 import p2_img from "./product_2.jpg";
 import p3_img from "./product_3.jpg";
 import p4_img from "./product_4.jpg";
@@ -37,264 +37,314 @@ import p36_img from "./product_36.jpg"; */
 
 let all_products = [
   {
-    id: 1,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "The 5-Pocket-Jeans ALVA",
     category: "women",
-    image: p1_img,
-    new_price: 50,
-    old_price: 80,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510801/app/fqmfihs6nguehtgxomj9.jpg",
+    old_price: 8,
+    description:
+      "The 5-Pocket-Jeans ALVA High Rise Wide are a stylish and comfortable pair of jeans that are perfect for any casual occasion. ",
   },
   {
-    id: 2,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Classic White T-Shirt Flower",
     category: "women",
-    image: p2_img,
-    new_price: 85,
-    old_price: 120,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510801/app/ean2y1lbgpjgmfgidfwj.jpg",
+    old_price: 12,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
-    id: 3,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Classic White T-Shirt Flower",
     category: "women",
-    image: p3_img,
-    new_price: 60,
-    old_price: 100,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510801/app/hjcuizicdfrn2yhverzc.jpg",
+    old_price: 10,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
-    id: 4,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Classic White T-Shirt Flower",
     category: "women",
-    image: p4_img,
-    new_price: 100,
-    old_price: 150,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510802/app/wivuktytdxb0bkiclihj.jpg",
+    old_price: 15,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
     id: 5,
     name: "Jeansjacke mit Finish im Washed-Look",
     category: "men",
-    image: p5_img,
-    new_price: 85,
-    old_price: 120,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510802/app/a82zw7k2pcllhal7uqeh.jpg",
+    old_price: 12,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
-    id: 6,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "men",
-    image: p6_img,
-    new_price: 85,
-    old_price: 120,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510802/app/vvg3w3uyos1h5a8o3vrv.jpg",
+    old_price: 12,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
-    id: 7,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "men",
-    image: p7_img,
-    new_price: 85,
-    old_price: 120,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510802/app/ithhxvg8ulhwgmp8n2hu.jpg",
+    old_price: 12,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
-    id: 8,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "men",
-    image: p8_img,
-    new_price: 85,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510802/app/nfis2xzxq5ukbyrsnyz9.jpg",
+
     old_price: 120,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
-    id: 9,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "women",
-    image: p9_img,
-    new_price: 85,
-    old_price: 120,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510803/app/pqydwzljujzq0zujeari.jpg",
+    old_price: 12,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
-    id: 10,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "women",
-    image: p10_img,
-    new_price: 85,
-    old_price: 120,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510803/app/mfm7knnnxytydrnzsicv.jpg",
+    old_price: 12,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
-    id: 11,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "women",
-    image: p11_img,
-    new_price: 85,
-    old_price: 120,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510803/app/vouuvp9pnprgeqx9pvsg.jpg",
+    old_price: 12,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
-    id: 12,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "women",
-    image: p12_img,
-    new_price: 85,
-    old_price: 120,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510803/app/p1tblbjrzybidxx8lrqa.jpg",
+    old_price: 12,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
-    id: 13,
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "women",
-    image: p13_img,
-    new_price: 85,
-    old_price: 120,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510804/app/uacgobvtejgniqgwuc4f.jpg",
+    old_price: 12,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
-    id: 14,
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "women",
-    image: p14_img,
-    new_price: 85,
-    old_price: 120,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510804/app/igl5olvxxygr1hcontey.jpg",
+    old_price: 12,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
-    id: 15,
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "women",
-    image: p15_img,
-    new_price: 85,
-    old_price: 120,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510804/app/yobe0m2ofkeepow0y380.jpg",
+    old_price: 12,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
-    id: 16,
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "women",
-    image: p16_img,
-    new_price: 85,
-    old_price: 120,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510804/app/qrss5njmkbw1pvqlbgha.jpg",
+    old_price: 12,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
-    id: 17,
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
-    image: p17_img,
-    new_price: 85,
-    old_price: 120,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510804/app/nerpmlzeecdzbopehxrj.jpg",
+    old_price: 12,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
-    id: 18,
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
-    image: p18_img,
-    new_price: 85,
-    old_price: 120,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510804/app/f6rijak1lsjl6albjvgz.jpg",
+    old_price: 1,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
-    id: 19,
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
-    image: p19_img,
-    new_price: 85,
-    old_price: 120,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510804/app/bzgcca00iwrj7tr4csgj.jpg",
+    old_price: 12,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
-    id: 20,
     name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
     category: "men",
-    image: p20_img,
-    new_price: 85,
-    old_price: 120,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510804/app/ckiohmhdry4q6fkv0svr.jpg",
+    old_price: 12,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
-    id: 21,
     name: "KIDSWORLD T-Shirt ",
     category: "kids",
-    image: p21_img,
-    old_price:9,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510805/app/omia9p1cqbpuqaru1rmr.jpg",
+    old_price: 9,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
-    id: 22,
     name: "KIDSWORLD T-Shirt",
     category: "kids",
-    image: p22_img,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510805/app/edgxwwx7rtceedh2eo9q.jpg",
     old_price: 9,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
-    id: 23,
     name: "KIDSWORLD T-Shirt ICH BIN OFF",
     category: "kids",
-    image: p23_img,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510805/app/jvkvudefj6r5ar39orav.jpg",
     old_price: 10,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
-    id: 24,
     name: "KIDSWORLD T-Shirt RAKETE ",
     category: "kids",
-    image: p24_img,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510805/app/ta1n9poupoi3zmbeybyo.jpg",
     old_price: 10,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
-    id: 25,
     name: "KIDSWORLD T-Shirt",
     category: "kids",
-    image: p25_img,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510806/app/ad9pubdrlhvoliyenh1h.jpg",
     old_price: 10,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
-    id: 26,
     name: "KIDSWORLD Carmenshirt Viskose-Shirt",
     category: "kids",
-    image: p26_img,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510806/app/weziip36nsq8m569u3ok.jpg",
     old_price: 10,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
-    id: 27,
     name: "KIDSWORLD Jerseykleid",
     category: "kids",
-    image: p27_img,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510806/app/cyxpsdqliv26j0xzkqf4.jpg",
     old_price: 10,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
-    id: 28,
     name: "KIDSWORLD T-Shirt",
     category: "kids",
-    image: p28_img,
-    old_price: 120,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510806/app/atukoklf8l5afhvdfaya.jpg",
+    old_price: 12,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
-    id: 29,
     name: "Tommy Jeans Shirt",
     category: "men",
-    image: p29_img,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510807/app/b6gmsx1rjf0yxqqoc7zl.jpg",
     old_price: 10,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
-    id: 30,
     name: "Calvin Klein  with Logo",
     category: "men",
-    image: p30_img,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510807/app/syry0nypcuspiztlzh50.jpg",
     old_price: 20,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
-    id: 31,
     name: "Tommy Hilfiger",
     category: "men",
-    image: p31_img,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510807/app/htblqvaz2neyidzrnh66.jpg",
     old_price: 20,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
-    id: 32,
     name: "Tommy Hilfiger",
     category: "men",
-    image: p32_img,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510807/app/em7yhjnow9tnqy1pq16y.jpg",
     old_price: 20,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
-    id: 33,
     name: "Indicode",
     category: "men",
-    image: p33_img,
-    old_price:20,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717510808/app/swijxnh1oxdxi0hjmuzs.jpg",
+    old_price: 20,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
   {
-    id: 34,
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "men",
-    image: p34_img,
+    image:
+      "https://res.cloudinary.com/dpx184ojl/image/upload/v1717593506/men_fesytc.jpg",
     old_price: 120,
+    description:
+      "A timeless and versatile choice, the white version of this t-shirt pairs perfectly with blue denim, khaki pants, or even a breezy summer skirt. ",
   },
- /*  {
+  /*  {
     id: 35,
     name: "Boys Orange Colourblocked Hooded Sweatshirt",
     category: "kids",

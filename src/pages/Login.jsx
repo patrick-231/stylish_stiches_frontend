@@ -11,35 +11,40 @@ export default function Login({ setUser }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    setIsLoading(true);
-    setError(null);
+    setIsLoading(true); // Set isLoading to true when the form is submitted
 
-    const response = await fetch("http://localhost:4000/user/login", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ email, password }),
-    });
+    try {
+      const response = await fetch(
+        "https://stylish-stiches.onrender.com/user/login",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ email, password }),
+        }
+      );
 
-    const data = await response.json();
+      const data = await response.json();
 
-    if (!response.ok) {
-      setIsLoading(false);
-      setError(data.error);
-    }
-
-    if (response.ok) {
-      localStorage.setItem("user", JSON.stringify(data));
-      setIsLoading(false);
-      setUser(data);
+      if (!response.ok) {
+        setIsLoading(false); // Set isLoading to false if the response is not ok
+        setError(data.error);
+      } else {
+        localStorage.setItem("user", JSON.stringify(data));
+        setIsLoading(false); // Set isLoading to false when the response is ok
+        setUser(data);
+      }
+    } catch (error) {
+      setIsLoading(false); // Set isLoading to false if there is an error
+      setError(error.message);
     }
   };
 
   return (
     <form onSubmit={handleSubmit}>
-      <section className="max-padd-container flexCenter flex-col pt-32 bg-primary">
-        <div className="w-full max-w-[666px] h-[600px] bg-primary m-auto px-14 py-10 rounded-full">
+      <section className="max-padd-container flexCenter flex-col pt-32 bg-primary ">
+        <div className="w-full max-w-[666px] h-[600px] bg-primary m-auto px-14 py-10 rounded-full ">
           <h3 className="h3">Login</h3>
-          <div className="flex flex-col gap-4 mt-7">
+          <div className="flex flex-col gap-4 mt-7 mb-7">
             <input
               name="email"
               value={email}
@@ -59,7 +64,12 @@ export default function Login({ setUser }) {
               className="h-8 w-full pl-5 bg-white outline-none text-sm focus:border-black border-2"
             />
           </div>
-          <button className="btn-dark rounded-xl my-5 !py-1">Continue</button>
+          <button
+            className="btn-dark rounded-xl my-5!py-1 mb-7 !py-1"
+            disabled={isLoading} // Disable the button while isLoading is true
+          >
+            {isLoading ? "Loading..." : "Continue"}
+          </button>
           {error && (
             <div>
               <span className="text-secondary">{error}</span>

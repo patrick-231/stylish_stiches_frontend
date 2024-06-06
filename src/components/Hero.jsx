@@ -6,7 +6,7 @@ import { BiSolidOffer } from "react-icons/bi";
 
 const Hero = () => {
   return (
-    <section className="max-padd-container mx-5">
+    <section className="max-padd-container mx-5 ">
       <div className="max-padd-container bg-hero bg-center bg-no-repeat bg-cover h-screen w-full rounded-3xl">
         <div className="relative lg:ml-16 top-32 xs:top-52  font-bold">
           <h2
@@ -23,7 +23,10 @@ const Hero = () => {
             elegance, where every stitch tells a story.{" "}
           </p>
           <div className="max-xs:flex-col   flex gap-5 xs:mt-12">
-            <Link to={"/"} className="btn-dark rounded-full flexCenter hover:scale-105 hover: ">
+            <Link
+              to={"/"}
+              className="btn-dark rounded-full flexCenter hover:scale-105 hover: "
+            >
               Shop Now{" "}
             </Link>
             <Link

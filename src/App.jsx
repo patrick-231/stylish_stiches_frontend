@@ -13,10 +13,10 @@ import Signup from "./pages/Signup";
 import Cart from "./pages/Cart";
 import Membership from "./pages/Membership";
 //banner & svg
-import bannermen from "./assets/bannermen.png";
+/* import bannermen from "./assets/bannermen.png";
 import bannerwommen from "./assets/bannerwomen.png";
 import bannerkids from "./assets/bannerkids.png";
-import TopBrand from "./components/TopBrand";
+import TopBrand from "./components/TopBrand"; */
 
 function App() {
   const [user, setUser] = useState(null);
@@ -69,7 +69,16 @@ function App() {
             <Route>
               <Route path="product/:productId" element={<Product />} />
             </Route>
-            <Route path="/cart-page" element={<Cart />} />
+            <Route
+              path="/cart-page"
+              element={
+                localStorage.getItem("user") ? (
+                  <Cart />
+                ) : (
+                  <Navigate to="/login" />
+                )
+              }
+            />
             <Route
               path="/login"
               element={

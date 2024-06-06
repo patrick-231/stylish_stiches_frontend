@@ -21,7 +21,7 @@ const Footer = () => {
                 accusamus hic. Quam eaque itaque reiciendis?
               </p>
               <img
-                src={footer}
+                src="https://res.cloudinary.com/dpx184ojl/image/upload/v1717510330/app/zbsnkgs00j2pfzwqe8aj.jpg"
                 className="rounded-md mt-6 w-54 shadow-md"
                 alt="footer image"
               />

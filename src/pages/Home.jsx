@@ -6,6 +6,7 @@ import Offers from "../components/Offers";
 import NewCollection from "../components/NewCollection";
 import NewMenFashion from "../components/NewMenFashion";
 import TopBrand from "../components/TopBrand";
+/* import ImageCarousel from "../components/ImageCarousel"; */
 
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
 
         {localStorage.getItem("user") ? <NewMenFashion /> : null}
 
-        {localStorage.getItem("user") ? <TopRated /> : null}
+        <TopRated />
         {localStorage.getItem("user") ? <Popular /> : null}
 
         <TopBrand />

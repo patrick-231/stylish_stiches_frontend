@@ -17,7 +17,7 @@ const ProductDisplay = (props) => {
     setIsClicked(!isClicked);
   };
 
-  const {addToCart} = useContext(ShopContext)
+  const { addToCart } = useContext(ShopContext);
 
   const images = [
     procut_rt_0,
@@ -80,19 +80,40 @@ const ProductDisplay = (props) => {
               <div>
                 <h4 className="bold-16">Select Size:</h4>
                 <div className="flex gap-3 my-3">
-                  <div className="ring-2 ring-slate-900 h-10 w-10 flexCenter cursor-pointer rounded-md ">S</div>
-                  <div className="ring-2 ring-slate-900 h-10 w-10 flexCenter cursor-pointer rounded-md">M</div>
-                  <div className="ring-2 ring-slate-900 h-10 w-10 flexCenter cursor-pointer rounded-md">L</div>
-                  <div className="ring-2 ring-slate-900 h-10 w-10 flexCenter cursor-pointer rounded-md">XL</div>
+                  <div className="ring-2 ring-slate-900 h-10 w-10 flexCenter cursor-pointer rounded-md ">
+                    S
+                  </div>
+                  <div className="ring-2 ring-slate-900 h-10 w-10 flexCenter cursor-pointer rounded-md">
+                    M
+                  </div>
+                  <div className="ring-2 ring-slate-900 h-10 w-10 flexCenter cursor-pointer rounded-md">
+                    L
+                  </div>
+                  <div className="ring-2 ring-slate-900 h-10 w-10 flexCenter cursor-pointer rounded-md">
+                    XL
+                  </div>
                 </div>
               </div>
             </div>
             <div className="flex gap-5 mb-8 max-w-[555px]">
-              <button onClick={() => {addToCart(product.id)}} className="btn-dark rounded-md">Add to cart</button>
+              <button
+                onClick={() => {
+                  addToCart(product.id);
+                }}
+                className="btn-dark rounded-md"
+              >
+                Add to cart
+              </button>
               <button className="btn-dark-outline rounded-md">Buy now</button>
             </div>
-            <p><span className="medium-16 text-tertiary">Category: </span> Men | Jeans Jacket | New Collection</p>
-            <p><span  className="medium-16 text-tertiary">Tags: </span> Modern | Trend | Latest |Popular</p>
+            <p>
+              <span className="medium-16 text-tertiary">Category: </span> Men |
+              Jeans Jacket | New Collection
+            </p>
+            <p>
+              <span className="medium-16 text-tertiary">Tags: </span> Modern |
+              Trend | Latest |Popular
+            </p>
           </div>
         </div>
       </div>
