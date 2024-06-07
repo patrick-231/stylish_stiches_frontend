@@ -12,11 +12,6 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Cart from "./pages/Cart";
 import Membership from "./pages/Membership";
-//banner & svg
-/* import bannermen from "./assets/bannermen.png";
-import bannerwommen from "./assets/bannerwomen.png";
-import bannerkids from "./assets/bannerkids.png";
-import TopBrand from "./components/TopBrand"; */
 
 function App() {
   const [user, setUser] = useState(null);

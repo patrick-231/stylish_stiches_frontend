@@ -6,13 +6,20 @@ import Offers from "../components/Offers";
 import NewCollection from "../components/NewCollection";
 import NewMenFashion from "../components/NewMenFashion";
 import TopBrand from "../components/TopBrand";
-/* import ImageCarousel from "../components/ImageCarousel"; */
+import Carousel from "../components/Carousel";
+import SLIDES from "../assets/slides";
 
 const Home = () => {
   return (
     <>
       <div>
         <Hero />
+
+        <Carousel autoslide={true}>
+          {SLIDES.map((slide) => (
+            <img src={slide.url} />
+          ))}
+        </Carousel>
 
         {localStorage.getItem("user") ? <NewMenFashion /> : null}
 
