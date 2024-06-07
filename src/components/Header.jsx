@@ -76,7 +76,7 @@ const Header = () => {
                 <NavLink
                   onClick={() => {
                     localStorage.removeItem("user");
-                    window.location.replace("/login");
+                    window.location.replace("/");
                   }}
                   to="logout"
                   className="btn-secondary flexCenter gap-x-2 medium-16 rounded-full"

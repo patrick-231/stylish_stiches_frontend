@@ -11,7 +11,7 @@ const NewMenFashion = () => {
           </h3>
 
           <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 mt-16">
-            {NEWCOLLECTION?.map((item) => (
+            {NEWCOLLECTION.map((item) => (
               <Item
                 key={item.id}
                 id={item.id}

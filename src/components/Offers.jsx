@@ -4,7 +4,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const Offers = () => {
   return (
-    <section className="max-padd-container bg-banneroffer bg-center bg-cover w-full lg:pt-10">
+    <section className="max-padd-container bg-banneroffer bg-center bg-cover w-full lg:pt-2">
       <div className="px-4 py-16 md:py-24 lg:py-44">
         <h2 className="h2 ">
           Spring <span className="text-secondary">Sale 50%</span> Offer
@@ -14,7 +14,7 @@ const Offers = () => {
           they're gone
         </h3>
         <Link
-          to={"/"}
+          to={"/men"}
           className="text-white bg-tertiary pl-6 rounded-full flexBetween gap-x-2 medium-16 w-44 mt-10 group "
         >
           Go to shop

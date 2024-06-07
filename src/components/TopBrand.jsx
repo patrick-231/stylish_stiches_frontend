@@ -1,8 +1,8 @@
-import vans from "../assets/vans.png";
-import weekday from "../assets/weekday.png";
-import glasses from "../assets/glasses.png";
-import lemon from "../assets/lemon.png";
 import { Link } from "react-router-dom";
+// react-icons
+import { MdOutlinePriceCheck } from "react-icons/md";
+import { TbTruckReturn } from "react-icons/tb";
+import { GiPriceTag } from "react-icons/gi";
 
 const TopBrand = () => {
   return (
@@ -74,11 +74,51 @@ const TopBrand = () => {
         </div>
       </div>
       <div className="flex justify-center">
-        <Link to={"/login"}>
+        <Link to={"/men"}>
           <button className="btn-dark rounded-full  hover:scale-105 hover:">
             View more
           </button>
         </Link>
+      </div>
+      <div className="h3  pt-14 ">
+        What you get as a member of{" "}
+        <span className="text-secondary">Stylish Stiches</span>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
+        <div className="">
+          <MdOutlinePriceCheck size={70} />
+
+          <p className="my-2">
+            <span className="font-bold text-xl">Reduced price till 75%</span>{" "}
+            <br />
+            You won't want to miss this incredible opportunity to save big on a
+            fantastic product. For a limited time, we're offering a breathtaking
+            discount of up to 75% off the regular price.
+          </p>
+        </div>
+        <div className="">
+          <TbTruckReturn size={70} />
+
+          <p className="my-2">
+            <span className="font-bold text-xl">Free return</span> <br />
+            Shop with complete confidence thanks to our unbeatable free return
+            policy. When you take advantage of our incredible 75% off sale, you
+            can rest assured that you're not only getting an amazing deal, but
+            also the freedom to return the item if it doesn't perfectly suit
+            your needs.
+          </p>
+        </div>
+        <div className="">
+          <GiPriceTag size={70} />
+
+          <p className="my-2">
+            <span className="font-bold text-xl">Daily new sales</span> <br />
+            Get ready for an exciting shopping experience with our daily new
+            sales! Each and every day, we're adding fresh, hot deals to our
+            inventory, so there's always something new and irresistible waiting
+            for you.
+          </p>
+        </div>
       </div>
     </section>
   );
