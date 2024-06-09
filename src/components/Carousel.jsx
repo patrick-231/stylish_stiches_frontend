@@ -21,7 +21,7 @@ const Carousel = ({
 
   return (
     <section className="max-padd-container  py-14 xl:py-24">
-      <h2 className="h3 text-center text-secondary">PORPULAR BRANDS</h2>
+      <h2 className="h3 text-center text-secondary">Popular Brands</h2>
       <div className="w-[90%] mx-auto flex justify-center items-center">
         <div className="overflow-hidden relative max-w-lg ">
           <div
@@ -48,7 +48,7 @@ const Carousel = ({
                 {SLIDES.map((_, i) => (
                   <div
                     className={`transition-all w-3 h-3 bg-white rounded-full ${
-                      current == i ? "p-2" : "bg-opacity-50"
+                      current == i ? "p-" : "bg-opacity-50"
                     }`}
                   />
                 ))}
