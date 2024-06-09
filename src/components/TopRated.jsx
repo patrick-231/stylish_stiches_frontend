@@ -34,7 +34,7 @@ const TopRated = () => {
         <div className="">
           <div className="ring-1 ring-slate-900/5 rounded-3xl text-white">
             <img
-              src="https://res.cloudinary.com/dpx184ojl/image/upload/v1717593506/men_fesytc.jpg"
+              src="https://i.pinimg.com/736x/74/1e/e9/741ee9c63ab85069e7c227da05ff86ec.jpg"
               className="rounded-3xl"
               alt="male image"
             />
@@ -55,9 +55,9 @@ const TopRated = () => {
         <div className="">
           <div className="ring-1 ring-slate-900/5 rounded-3xl text-white">
             <img
-              src="https://res.cloudinary.com/dpx184ojl/image/upload/v1717569740/app/uptn7zc0acjhbnnlrycg.jpg"
+              src="https://res.cloudinary.com/dpx184ojl/image/upload/v1717887591/women_rwckvv.jpg"
               className="rounded-3xl"
-              alt="male image"
+              alt="female image"
             />
           </div>
           <div>
