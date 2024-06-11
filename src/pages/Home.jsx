@@ -3,7 +3,6 @@ import Hero from "../components/Hero";
 import TopRated from "../components/TopRated";
 import Popular from "../components/Popular";
 import Offers from "../components/Offers";
-import NewCollection from "../components/NewCollection";
 import NewMenFashion from "../components/NewMenFashion";
 import TopBrand from "../components/TopBrand";
 import Carousel from "../components/Carousel";
@@ -28,7 +27,6 @@ const Home = () => {
 
         <TopBrand />
         <Offers />
-        <NewCollection />
       </div>
     </>
   );

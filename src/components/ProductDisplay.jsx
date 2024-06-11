@@ -2,11 +2,6 @@ import React, { useContext, useState } from "react";
 import { FaStar } from "react-icons/fa";
 import { useParams } from "react-router-dom";
 import { ShopContext } from "../context/ShopContext";
-import procut_rt_0 from "../assets/procut_rt_0.jpg";
-import procut_rt_1 from "../assets/procut_rt_1.jpg";
-import procut_rt_2 from "../assets/procut_rt_2.jpg";
-import procut_rt_3 from "../assets/procut_rt_3.jpg";
-import procut_rt_4 from "../assets/procut_rt_4.jpg";
 
 const ProductDisplay = (props) => {
   const { product } = props;
@@ -19,34 +14,15 @@ const ProductDisplay = (props) => {
 
   const { addToCart } = useContext(ShopContext);
 
-  const images = [
-    procut_rt_0,
-    procut_rt_1,
-    procut_rt_2,
-    procut_rt_3,
-    procut_rt_4,
-  ];
-
   return (
     <section className="flex flex-col gap-8 xl:flex-row">
       {/* left-side */}
       <div className="flex gap-x-2 xl:flex-1">
-        <div className="flex flex-col gap-[7px] flex-wrap xl:ml-6">
-          {images.map((image, index) => (
-            <img
-              key={index}
-              src={image}
-              alt={`product thumbnail ${index}`}
-              className="max-h-[90px] cursor-pointer focus:border focus:border-red-600"
-              onClick={() => setSelectedImage(image)}
-            />
-          ))}
-        </div>
         <div>
           <img
             src={selectedImage}
             alt="selected product"
-            className="w-full h-[450px] object-contain"
+            className="w-full h-[450px] object-contain ml-4"
           />
         </div>
       </div>
