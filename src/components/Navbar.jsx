@@ -10,7 +10,7 @@ const Navbar = ({ containerStyles }) => {
           key={link.title}
           to={link.path}
           className={({ isActive }) =>
-            isActive ? "active-link" : " px- py-2 rounded-full"
+            isActive ? "active-link" : " px-3 py-2 rounded-full"
           }
         >
           <div className="flexCenter gap-x-1">{link.title}</div>
