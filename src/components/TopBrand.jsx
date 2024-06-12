@@ -105,10 +105,7 @@ const TopBrand = () => {
           <p className="my-2">
             <span className="font-bold text-xl">Free return</span> <br />
             Shop with complete confidence thanks to our unbeatable free return
-            policy. When you take advantage of our incredible 75% off sale, you
-            can rest assured that you're not only getting an amazing deal, but
-            also the freedom to return the item if it doesn't perfectly suit
-            your needs.
+            policy. When you take advantage of our incredible 75% off sale,
           </p>
         </div>
         <div className="">
@@ -126,33 +123,40 @@ const TopBrand = () => {
           <IoDiamondOutline size={70} />
 
           <p className="my-2">
-            <span className="font-bold text-xl">Daily new sales</span> <br />
-            Get ready for an exciting shopping experience with our daily new
-            sales! Each and every day, we're adding fresh, hot deals to our
-            inventory, so there's always something new and irresistible waiting
-            for you.
+            <span className="font-bold text-xl">
+              Enjoy a wide selection of exclusive brands
+            </span>{" "}
+            <br />
+            At Stylish Stitches, we take pride in offering our customers an
+            unparalleled shopping experience. Our carefully curated collection
+            features over a lot of top brands, each chosen for its exceptional
+            quality.
           </p>
         </div>
         <div className="">
           <FaHeart size={70} />
 
           <p className="my-2">
-            <span className="font-bold text-xl">Daily new sales</span> <br />
-            Get ready for an exciting shopping experience with our daily new
-            sales! Each and every day, we're adding fresh, hot deals to our
-            inventory, so there's always something new and irresistible waiting
-            for you.
+            <span className="font-bold text-xl">
+              Daily new members and still counting
+            </span>{" "}
+            <br />
+            Discover a world of sartorial excellence as you browse through our
+            expansive selection of premier brands. From high-end luxury labels
+            to beloved contemporary designers.
           </p>
         </div>
         <div className="">
           <TbTruckDelivery size={70} />
 
           <p className="my-2">
-            <span className="font-bold text-xl">Daily new sales</span> <br />
-            Get ready for an exciting shopping experience with our daily new
-            sales! Each and every day, we're adding fresh, hot deals to our
-            inventory, so there's always something new and irresistible waiting
-            for you.
+            <span className="font-bold text-xl">
+              Wherever you are, we deliver to you.
+            </span>{" "}
+            <br />
+            Our reliable and efficient delivery services mean that you can have
+            your coveted fashion items brought straight to your doorstep, no
+            matter your location.
           </p>
         </div>
       </div>

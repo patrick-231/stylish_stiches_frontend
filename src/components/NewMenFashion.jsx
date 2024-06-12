@@ -38,12 +38,12 @@ const NewMenFashion = () => {
       <div className=" bg-white  py-12 xl:p-28 ">
         <div className="w-[90%] mx-auto">
           <h3 className="h3 text-secondary ml-6 text-center">
-            New <span>Collection</span>
+            New <span>Collections</span>
           </h3>
 
           <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 mt-16">
             {loading ? (
-              <div className="flexCenter min-h-[140px] w-full ">
+              <div className="flex justify-center items-center min-h-[140px] w-full ">
                 <svg
                   className="w-16 h-16 animate-spin text-gray-900/50"
                   viewBox="0 0 64 64"
@@ -70,7 +70,7 @@ const NewMenFashion = () => {
                 </svg>
               </div>
             ) : error ? (
-              <div className="flex justify-center">
+              <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 mt-16">
                 <p>Error: {error}</p>
               </div>
             ) : (
