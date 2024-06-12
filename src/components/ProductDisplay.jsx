@@ -2,6 +2,7 @@ import React, { useContext, useState } from "react";
 import { FaStar } from "react-icons/fa";
 import { useParams } from "react-router-dom";
 import { ShopContext } from "../context/ShopContext";
+import { useNavigate } from "react-router-dom";
 
 const ProductDisplay = (props) => {
   const { product } = props;
@@ -10,6 +11,12 @@ const ProductDisplay = (props) => {
 
   const handleClick = () => {
     setIsClicked(!isClicked);
+  };
+
+  const navigate = useNavigate();
+
+  const handleCartClick = () => {
+    navigate("/cart-page");
   };
 
   const { addToCart } = useContext(ShopContext);
@@ -80,7 +87,12 @@ const ProductDisplay = (props) => {
               >
                 Add to cart
               </button>
-              <button className="btn-dark-outline rounded-md">Buy now</button>
+              <button
+                className="btn-dark-outline rounded-md"
+                onClick={handleCartClick}
+              >
+                Buy now
+              </button>
             </div>
             <p>
               <span className="medium-16 text-tertiary">Category: </span> Men |

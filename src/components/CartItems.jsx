@@ -44,11 +44,11 @@ const CartItems = () => {
                     <td className="">
                       <div>{product.name}</div>
                     </td>
-                    <td>${product.old_price}</td>
+                    <td>€{product.old_price}</td>
                     <td className="h-16 w-16 bg-white">
                       {cartItems[product.id]}
                     </td>
-                    <td>${product.old_price * cartItems[product.id]}</td>
+                    <td>€{product.old_price * cartItems[product.id]}</td>
                     <td>
                       <div className="bold-22 relative left-1/2 cursor-pointer">
                         <TbTrash onClick={() => removeFromCart(product.id)} />
