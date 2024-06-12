@@ -42,6 +42,18 @@ const SLIDES = [
   {
     url: "https://img01.ztat.net/zl-campaign-banners-albums/albums/2dc6bc64-a820-4849-a37b-5584359d82d2/b51a3078-5352-4840-9ab6-8cc2fd310663.jpeg?imwidth=640",
   },
+  {
+    url: "https://img01.ztat.net/zl-campaign-banners-albums/albums/011382c8-6629-4adc-a503-915a48d53c3d/c210f3d4-d6a1-4968-bd79-94c68bc62e89.jpeg?imwidth=640",
+  },
+  {
+    url: "https://img01.ztat.net/zl-campaign-banners-albums/albums/310f5769-6e14-461b-953b-5fadde7204a5/b6ce7faf-4e2c-4018-a3b7-84cbde95c1bc.jpeg?imwidth=640",
+  },
+  {
+    url: "https://img01.ztat.net/zl-campaign-banners-albums/albums/eb71285c-9da4-4d9a-adb5-4be645d6a1a1/45c3ed2b-cdb7-40ff-964f-dd63ca43ddf1.jpeg?imwidth=640",
+  },
+  {
+    url: "https://img01.ztat.net/zl-campaign-banners-albums/albums/9fb5ade3-e027-41ef-b985-a627f37b40f2/78c1a1ea-74c0-4ca3-9126-c481e068a7c0.jpeg?imwidth=640",
+  },
 ];
 
 export default SLIDES;

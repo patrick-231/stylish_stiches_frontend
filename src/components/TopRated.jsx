@@ -1,7 +1,3 @@
-import men from "../assets/men.jpg";
-import women from "../assets/women.jpg";
-import kids from "../assets/kids.jpg";
-import girl from "../assets/girl.jpg";
 import { Link } from "react-router-dom";
 
 const TopRated = () => {
