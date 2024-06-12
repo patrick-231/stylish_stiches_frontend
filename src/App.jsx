@@ -61,6 +61,7 @@ function App() {
             />
             <Route path="/product" element={<Product />} />
             <Route path="/membership-club" element={<Membership />} />
+            {/* <Route path="/contact-us" element={<Contact />} /> */}
             <Route>
               <Route path="product/:productId" element={<Product />} />
             </Route>

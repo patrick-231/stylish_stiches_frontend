@@ -8,10 +8,10 @@ const Hero = () => {
   return (
     <section className="max-padd-container mx-5 ">
       <div className="max-padd-container bg-hero bg-center bg-no-repeat bg-cover h-screen w-full rounded-3xl">
-        <div className="relative lg:ml-16 top-32 xs:top-52  font-bold">
+        <div className="relative lg:ml-16 top-32 xs:top-52  font-bold ">
           <h2
             className="sm:pt-40 xs:text-4xl xs:pt-40 lg:text-6xl capitalize max-w-[40rem] text-tertiary sm:mt-16 md:mt-20 lg:mt-24 @media (max-width: 639px) and (max-height: 1184px) {
-  mt-32
+  mt-32 max-xs:hidden
 }"
           >
             Elevate Your Style, Elevate Your Life
@@ -22,15 +22,15 @@ const Hero = () => {
             and fashionable apparel. Immerse yourself in a world of timeless
             elegance, where every stitch tells a story.{" "}
           </p>
-          <div className="max-xs:flex-col   flex gap-5 xs:mt-12">
+          <div className="max-xs:hidden   flex gap-5 xs:mt-12">
             <Link
-              to={"/"}
-              className="btn-dark rounded-full flexCenter hover:scale-105 hover: "
+              to={"/women"}
+              className="btn-dark rounded-full flexCenter hover:scale-105  "
             >
               Shop Now{" "}
             </Link>
             <Link
-              to={"/"}
+              to={"/membership-club"}
               className="text-tertiary bg-white pl-6 rounded-full flexCenter gap-x-8 medium-16 group hover:scale-105"
             >
               Offers
