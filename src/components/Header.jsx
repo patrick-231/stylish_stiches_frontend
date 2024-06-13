@@ -81,7 +81,11 @@ const Header = () => {
                   to="logout"
                   className="btn-secondary flexCenter gap-x-2 medium-16 rounded-full"
                 >
-                  <img src={Logout} alt="logout icon" height={19} width={19} />
+                  <img
+                    src={Logout}
+                    alt="logout icon"
+                    className="h-5 w-5 sm:h-6 sm:w-6"
+                  />
                   Logout
                 </NavLink>
               ) : (
@@ -89,7 +93,11 @@ const Header = () => {
                   to="login"
                   className="btn-secondary flexCenter gap-x-2 medium-16 rounded-full"
                 >
-                  <img src={User} alt="login icon" height={19} width={19} />
+                  <img
+                    src={User}
+                    alt="login icon"
+                    className="h-5 w-5 sm:h-6 sm:w-6"
+                  />
                   Login
                 </NavLink>
               )}
