@@ -45,7 +45,7 @@ const NewMenFashion = () => {
             {loading ? (
               <div className="flex justify-center items-center min-h-[140px] w-full ">
                 <svg
-                  className="w-16 h-16 animate-spin text-gray-900/50"
+                  className="w-16 h-16 animate-spin text-red-600"
                   viewBox="0 0 64 64"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
