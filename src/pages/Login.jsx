@@ -113,12 +113,12 @@ export default function Login({ setUser }) {
             </span>
           </p>
 
-          <div className="flexStart ml-6 gap-3">
+          {/* <div className="flexStart ml-6 gap-3">
             <input type="checkbox" name="" id="" />
             <p className="mt-xl">
               By continuing, I agree to the term of use & privacy policy.
             </p>
-          </div>
+          </div> */}
         </div>
       </section>
     </form>
